@@ -12,8 +12,6 @@ $(document).ready(function(){
   // Click Listener for FORM SUBMISSION to ADD a comment
   $('.add-comment-button').on('click', function(){
 
-    // http://stackoverflow.com/questions/1960240/jquery-ajax-submit-form
-    // http://stackoverflow.com/questions/17097947/jquery-using-a-variable-as-a-selector
    
     // Get _id of comment to be deleted
     var articleId = $(this).data("id");
